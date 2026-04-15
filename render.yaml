@@ -1,6 +1,7 @@
 services:
   - type: web
     name: expense-tracker-backend
+    rootDir: backend
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
